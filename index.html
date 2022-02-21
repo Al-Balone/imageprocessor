@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <div id = "tree-container">
+            <img class = "shadow" 
+            src = "https://www.lantra.co.uk/sites/default/files/styles/crop_article_banner/public/2020-03/tree-3822149_1920.jpg?itok=BA7VY9bK" width = "75%" height="auto">
+            <figcaption>Use the sliders to alter the image:</figcaption>
+            <div class = "form-group">
+                <label for="cornerSlider">Corners:</label>
+                <input type="range" id="cornerSlider" min="0" max="50" value="0" />
+
+                <label for="graySlider">Grayscale:</label>
+                <input type="range" id="graySlider" min="0" max="50" value="0" />
+
+                <label for="brightSlider">Brightness:</label>
+                <input type="range" id="brightSlider" min="0" max="100" value="100" />
+
+                <label for="blurSlider">Blur:</label>
+                <input type="range" id="blurSlider" min="0" max="50" value="0" />
+
+                <label for="saturateSlider">Saturation:</label>
+                <input type="range" id="saturateSlider" min="0" max="200" value="100" />
+
+                <label for="sepiaSlider">Sepia:</label>
+                <input type="range" id="sepiaSlider" min="0" max="50" value="0" />
+    
+        </div>
+        <script src="sliderfunction.js"></script>  
+    </body>
+    </html>
+    
+</body>
+</html>
