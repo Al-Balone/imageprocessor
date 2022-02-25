@@ -7,6 +7,7 @@
   --blur: 0;
   --saturate: 1;
   --sepia: 0;
+
 }
 
 body {
@@ -23,6 +24,22 @@ body {
 
 figcaption {
   font-size: 3rem;
+}
+
+form {
+  font-size: 2rem;
+}
+
+form input {
+  font-size: 1.5rem;
+}
+
+form button {
+  font-size: 1.5rem;
+  color: #272727;
+  background-color: #6f9580;
+  border: none;
+
 }
 
 #tree-container {
